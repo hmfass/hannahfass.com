@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>hannah fass | logos</title>
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/webfonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/960_24_col.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<meta property="og:title" content="hannahfass.com" />
+		<meta property="og:description" content="hannah fass | graphic designer | logos" />
+		<meta property="og:url" content="hannahfass.com/logos.html">
+		<meta property="og:site_name" content "hannahfass.com">
+		<meta property="og:image" content="http://hannahfass.com/img/id.jpg" />
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+		<script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hover-preview.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#content").hoverPreview({
+					previewContainer: '#center-image',
+					dataSelector:     '.item',
+					activeClass:      'itemactive',
+					imageLink:        '#full-image-link',
+					transition:       'click',
+					change: function (event, data) {
+					    $('.image-pager ul').hide();
+					    $('.pager-' + (data.index + 1))
+					        .hoverPreview('setActive', 0)
+					        .show();
+
+					}
+				});
+				
+				$(".pager-1").hoverPreview({
+				    previewContainer: '#center-image',
+					dataSelector:     'a',
+					activeClass:      'active',
+					imageLink:        '#full-image-link',
+					transition:       'click'
+				});
+				
+				$(".pager-2").hoverPreview({
+				    previewContainer: '#center-image',
+					dataSelector:     'a',
+					activeClass:      'active',
+					imageLink:        '#full-image-link',
+					transition:       'click'
+				}).hide();
+				
+				$(".pager-3").hoverPreview({
+				    previewContainer: '#center-image',
+					dataSelector:     'a',
+					activeClass:      'active',
+					imageLink:        '#full-image-link',
+					transition:       'click'
+				}).hide();
+				
+				$(".pager-4").hoverPreview({
+				    previewContainer: '#center-image',
+					dataSelector:     'a',
+					activeClass:      'active',
+					imageLink:        '#full-image-link',
+					transition:       'click'
+				}).hide();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container" class="container_24">
+			<div id="header" class="grid_24">
+				<a href="index.html">
+					<div id="logo">
+						<h1>hf</h1>
+					</div>
+				</a>
+			</div>
+			<div class="clear"></div>
+			<div id="sidebar" class="grid_4">
+				<ul>
+					<li class="name"><a href="index.html">hannah fass</a></li>
+					<li><li><a href="about.html">about</a></li>
+					<li><a href="resume.pdf" target="_blank">resume</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+				<ul>
+					<li><a href="index.html">portfolio</a></li>
+					<ul>
+						<li><a href="branding.html">branding</a></li>
+						<li><a href="identity.html">identity</a></li>
+						<li><a href="logos.html">logos</a></li>
+						<li><a href="web.html">web</a></li>
+						<li><a href="packaging.html">packaging</a></li>
+						<li><a href="print.html">print</a></li>
+					</ul>
+				</ul>
+			</div>
+			<div id="center-image-container" class="prefix_2 grid_8">
+				<div id="center-image">
+					<img src="art/large/l_simplifi.jpg" />
+				</div>
+				<div class="image-pager">
+				    images:
+				    <ul class="pager-1">
+				        <li><a class="active" data-preview="art/large/l_simplifi.jpg" data-link="art/full/f_simplifi.jpg" href="#">1</a></li>
+				    </ul>
+				    <ul class="pager-2">
+				        <li><a class="active" data-preview="art/large/l_abcd.jpg" data-link="art/full/f_abcd.jpg" href="#">1</a></li>
+				    </ul>
+				    <ul class="pager-3">
+				        <li><a class="active" data-preview="art/large/l_bookstore_v.jpg" data-link="art/full/f_bookstore_v.jpg" href="#">1</a></li>
+				        <li><a data-preview="art/large/l_bookstore_h.jpg" data-link="art/full/f_bookstore_h.jpg" href="#">2</a></li>
+				    </ul>
+				    <ul class="pager-4">
+				        <li><a class="active" data-preview="art/large/l_transmotus_v.jpg" data-link="art/full/f_transmotus_v.jpg" href="#">1</a></li>
+				        <li><a data-preview="art/large/l_transmotus_h.jpg" data-link="art/full/f_transmotus_h.jpg" href="#">2</a></li>
+				    </ul>
+				</div>
+				<a id="full-image-link" href="art/full/f_simplifi.jpg" target="_blank">+ full preview</a>
+			</div>
+			<div id="content" class="prefix_1 grid_9">
+				<h2>logos</h2>
+				<div class="item itemactive" data-preview="art/large/l_simplifi.jpg" data-link="art/full/f_simplifi.jpg">
+					<img src="art/thumb/t_simplifi.jpg" />
+					<p><span class="project-name">simpli-fi</span>&#8212;created for a fictional public wi-fi service that spans the majority of madison, wi, providing free internet access to all citizens.</p>
+				</div>
+				<div class="item" data-preview="art/large/l_abcd.jpg" data-link="art/full/f_abcd.jpg">
+					<img src="art/thumb/t_abcd.jpg" />
+					<p><span class="project-name">asset based community development</span>&#8212;proposed for a new community program associated with the <a href="http://www.goodmancenter.org/services/asset-based-community-development" target="_blank">goodman community center</a>.</p>
+				</div>
+				<div class="item" data-preview="art/large/l_bookstore_v.jpg" data-link="art/full/f_bookstore_v.jpg">
+					<img src="art/thumb/t_bookstore.jpg" />
+					<p><span class="project-name">the bookstore</span>&#8212;logo mark and typography were chosen to reflect the client's vision to be more than a textbook vendor. in use at <a href="http://www.matcmadison.edu" target="_blank">madison college</a>.</p>
+				</div>
+				<div class="item" data-preview="art/large/l_transmotus_v.jpg" data-link="art/full/f_transmotus_v.jpg">
+					<img src="art/thumb/t_transmotus.jpg" />
+					<p><span class="project-name">transmotus</span>&#8212;created for a fictional bike courier service primarily marketed towards law firms in the madison, wi area.</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div id="footer" class="grid_24">
+				<p class="copywrite">&copy; 2012 Hannah Fass</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</body>
+</html>

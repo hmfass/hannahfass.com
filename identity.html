@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>hannah fass | identity</title>
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/webfonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/960_24_col.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<meta property="og:title" content="hannahfass.com" />
+		<meta property="og:description" content="hannah fass | graphic designer | identity" />
+		<meta property="og:url" content="hannahfass.com/identity.html">
+		<meta property="og:site_name" content "hannahfass.com">
+		<meta property="og:image" content="http://hannahfass.com/img/id.jpg" />
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+		<script type="text/javascript" src="js/jquery.animate-enhanced.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hover-preview.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#content").hoverPreview({
+					previewContainer: '#center-image',
+					dataSelector:     '.item',
+					activeClass:      'itemactive',
+					imageLink:        '#full-image-link',
+					transition:       'click',
+					change: function (event, data) {
+					    $('.image-pager ul').hide();
+					    $('.pager-' + (data.index + 1))
+					        .hoverPreview('setActive', 0)
+					        .show();
+
+					}
+				});
+				
+				$(".pager-1").hoverPreview({
+				    previewContainer: '#center-image',
+					dataSelector:     'a',
+					activeClass:      'active',
+					imageLink:        '#full-image-link',
+					transition:       'click'
+				});
+				
+				$(".pager-2").hoverPreview({
+				    previewContainer: '#center-image',
+					dataSelector:     'a',
+					activeClass:      'active',
+					imageLink:        '#full-image-link',
+					transition:       'click'
+				}).hide();
+				
+				$(".pager-3").hoverPreview({
+				    previewContainer: '#center-image',
+					dataSelector:     'a',
+					activeClass:      'active',
+					imageLink:        '#full-image-link',
+					transition:       'click'
+				}).hide();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container" class="container_24">
+			<div id="header" class="grid_24">
+				<a href="index.html">
+					<div id="logo">
+						<h1>hf</h1>
+					</div>
+				</a>
+			</div>
+			<div class="clear"></div>
+			<div id="sidebar" class="grid_4">
+				<ul>
+					<li class="name"><a href="index.html">hannah fass</a></li>
+					<li><li><a href="about.html">about</a></li>
+					<li><a href="resume.pdf" target="_blank">resume</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+				<ul>
+					<li><a href="index.html">portfolio</a></li>
+					<ul>
+						<li><a href="branding.html">branding</a></li>
+						<li><a href="identity.html">identity</a></li>
+						<li><a href="logos.html">logos</a></li>
+						<li><a href="web.html">web</a></li>
+						<li><a href="packaging.html">packaging</a></li>
+						<li><a href="print.html">print</a></li>
+					</ul>
+				</ul>
+			</div>
+			<div id="center-image-container" class="prefix_2 grid_8">
+				<div id="center-image">
+					<img src="art/large/l_bookstore_v.jpg" />
+				</div>
+				<div class="image-pager">
+				    images:
+				    <ul class="pager-1">
+				        <li><a class="active" data-preview="art/large/l_bookstore_v.jpg" data-link="art/full/f_bookstore_v.jpg" href="#">1</a></li>
+				        <li><a data-preview="art/large/l_bookstore_h.jpg" data-link="art/full/f_bookstore_h.jpg" href="#">2</a></li>
+						<li><a data-preview="art/large/l_bookstore_top_shelf_photo.jpg" data-link="art/full/f_bookstore_top_shelf_photo.jpg" href="#">3</a></li>
+						<li><a data-preview="art/large/l_bookstore_case_photo.jpg" data-link="art/full/f_bookstore_case_photo.jpg" href="#">4</a></li>
+						<li><a data-preview="art/large/l_bookstore_ceiling_photo.jpg" data-link="art/full/f_bookstore_ceiling_photo.jpg" href="#">5</a></li>
+						<li><a data-preview="art/large/l_bookstore_art_sale.jpg" data-link="art/full/f_bookstore_art_sale.jpg" href="#">6</a></li>
+						<li><a data-preview="art/large/l_bookstore_clothing_sale.jpg" data-link="art/full/f_bookstore_clothing_sale.jpg" href="#">7</a></li>
+						<li><a data-preview="art/large/l_bookstore_spring_sale.jpg" data-link="art/full/f_bookstore_spring_sale.jpg" href="#">8</a></li>
+				    </ul>
+				    <ul class="pager-2">
+				        <li><a class="active" data-preview="art/large/l_transmotus_v.jpg" data-link="art/full/f_transmotus_v.jpg" href="#">1</a></li>
+				        <li><a data-preview="art/large/l_transmotus_h.jpg" data-link="art/full/f_transmotus_h.jpg" href="#">2</a></li>
+					 	<li><a data-preview="art/large/l_transmotus_web_home.jpg" data-link="art/full/f_transmotus_web_home.jpg" href="#">3</a></li>
+						<li><a data-preview="art/large/l_transmotus_web_service.jpg" data-link="art/full/f_transmotus_web_service.jpg" href="#">4</a></li>
+						<li><a data-preview="art/large/l_transmotus_web_account.jpg" data-link="art/full/f_transmotus_web_account.jpg" href="#">5</a></li>
+						<li><a data-preview="art/large/l_transmotus_packaging.jpg" data-link="art/full/f_transmotus_packaging.jpg" href="#">6</a></li>
+						<li><a data-preview="art/large/l_transmotus_invoice.jpg" data-link="art/full/f_transmotus_invoice.jpg" href="#">7</a></li>
+				    </ul>
+				    <ul class="pager-3">
+				        <li><a class="active" data-preview="art/large/l_phoenix_poster.jpg" data-link="art/full/f_phoenix_poster.jpg" href="#">1</a></li>
+				        <li><a data-preview="art/large/l_phoenix_ticket.jpg" data-link="art/full/f_phoenix_ticket.jpg" href="#">2</a></li>
+				        <li><a data-preview="art/large/l_phoenix_wearables.jpg" data-link="art/full/f_phoenix_wearables.jpg" href="#">3</a></li>
+				    </ul>
+				</div>
+				<a id="full-image-link" href="art/full/f_bookstore_v.jpg" target="_blank">+ full preview</a>
+			</div>
+			<div id="content" class="prefix_1 grid_9">
+				<h2>identity</h2>
+				<div class="item itemactive" data-preview="art/large/l_bookstore_v.jpg" data-link="art/full/f_bookstore_v.jpg">
+					<img src="art/thumb/t_bookstore.jpg" />
+					<p><span class="project-name">the bookstore</span>&#8212;logo mark and typography were chosen to reflect the client's vision to be more than a textbook vendor. in use at <a href="http://www.matcmadison.edu" target="_blank">madison college</a>.</p>
+				</div>
+				<div class="item" data-preview="art/large/l_transmotus_v.jpg" data-link="art/full/f_transmotus_v.jpg">
+					<img src="art/thumb/t_transmotus.jpg" />
+					<p><span class="project-name">transmotus</span>&#8212;created for a fictional bike courier service primarily marketed towards law firms in the madison, wi area.</p>
+				</div>
+				<div class="item" data-preview="art/large/l_phoenix_poster.jpg" data-link="art/full/f_phoenix_poster.jpg">
+					<img src="art/thumb/t_phoenix.jpg" />
+					<p><span class="project-name">phoenix band collateral</span>&#8212;color palette, dot pattern, and typographic treatment chosen to reflect phoenix's fun and active style of music.</p>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div id="footer" class="grid_24">
+				<p class="copywrite">&copy; 2012 Hannah Fass</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</body>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-30892450-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</html>
