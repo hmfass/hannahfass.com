@@ -1,6 +1,6 @@
 #hannahfass.com
 
-Source files for [hannahfass.com](//hannahfass.com).
+Source files for [hannahfass.com](http://hannahfass.com).
 
 #License
 
